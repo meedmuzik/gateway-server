@@ -11,6 +11,8 @@ eureka:
       defaultZone: http://localhost:8070/eureka/
 
 spring:
+  application:
+    name: gateway-server
   cloud:
     gateway:
       discovery.locator:
